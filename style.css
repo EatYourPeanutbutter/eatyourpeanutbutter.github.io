@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn {
+    padding: 16px 35px;
+    background: blue;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.393);
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    font-size: large;
+    cursor: pointer;
+}
